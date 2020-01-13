@@ -8,7 +8,11 @@ function commonEnd(a, b) {
   let firstElementB = b[0];
   let lastElementB = b[b.length-1];
 
-  if()
+  if(firstElementA === firstElementB || lastElementA === lastElementB || a !== undefined && b !== undefined && a < 1 && b < 1){
+    return true;
+  }else{
+    return false;
+  }
 }
 
 function endsMeet(values, n) {
