@@ -3,7 +3,12 @@ function commonEnd(a, b) {
     return false;
   }
 
-  // write your code here
+  let firstElementA = a[0];
+  let lastElementA = a[a.length-1];
+  let firstElementB = b[0];
+  let lastElementB = b[b.length-1];
+
+  if()
 }
 
 function endsMeet(values, n) {
