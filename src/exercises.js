@@ -16,7 +16,7 @@ function commonEnd(a, b) {
 }
 
 function endsMeet(values, n) {
-  // write your code here
+  
 }
 
 function difference(numbers) {
