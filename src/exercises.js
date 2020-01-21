@@ -49,7 +49,7 @@ function difference(numbers) {
 }
 
 function max(number) {
-  // write your code here
+
   if (number == undefined||number < 3||number.some(isNaN)||number.length % 2 == 0) {
     return undefined;
   } else {
@@ -63,7 +63,7 @@ function max(number) {
 }
 
 function middle(values) {
-  // write your code here
+
   if (values == undefined||values.length < 3||values.length % 2 == 0) {
     return [];
   } else {
@@ -75,7 +75,7 @@ function middle(values) {
 }
 
 function increasing(numbers) {
-  // write your code here
+
   if (!numbers || numbers.some(isNaN) || Number.isInteger(numbers) || numbers.length < 3) {
      return undefined;
    }
@@ -91,7 +91,7 @@ function increasing(numbers) {
 }
 
 function everywhere(values, x) {
-  // write your code here
+
   let result;
   	if (!values || values.length < 1 || !x) {
   		return false;
