@@ -110,7 +110,7 @@ function everywhere(values, x) {
 }
 
 function consecutive(numbers) {
-  // write your code here
+
   if (!numbers || numbers.length < 3 || numbers.some(isNaN) || Number.isInteger(numbers)) {
     return false;
   } else {
@@ -126,7 +126,7 @@ function consecutive(numbers) {
 }
 
 function balance(numbers) {
-  // write your code here
+
   	let left = 0;
   	let result;
   	let right = 0;
