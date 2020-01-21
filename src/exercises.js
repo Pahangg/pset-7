@@ -152,7 +152,7 @@ function balance(numbers) {
 }
 
 function clumps(values) {
-  // write your code here
+
   let count = 0;
   if (!values) {
     return -1;
